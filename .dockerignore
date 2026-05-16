@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual Environments
+venv
+ENV
+env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache
+.coverage
+htmlcov
+.tox
+
+# Project specific
+.streamlit
+.tmp
+
+# CI/CD
+.github
+
+# Documentation
+docs/_build
+
+# Keep these for runtime
+!trained_models/
+!reports/
+!datasets/
