@@ -1,0 +1,48 @@
+{
+  "disease": "diabetes",
+  "model_name": "Logistic Regression",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_category",
+    "Glucose_Insulin"
+  ],
+  "class_names": [
+    "Non-Diabetic",
+    "Diabetic"
+  ],
+  "metrics": {
+    "accuracy": 0.7078,
+    "precision": 0.5652,
+    "recall": 0.7222,
+    "f1": 0.6341,
+    "roc_auc": 0.8176,
+    "best_params": {
+      "C": 100,
+      "class_weight": "balanced",
+      "max_iter": 1000,
+      "solver": "lbfgs"
+    },
+    "cv_score": 0.8465
+  },
+  "saved_at": "2026-05-16 01:11:00",
+  "optimal_threshold": 0.3,
+  "recall_target": 0.85,
+  "threshold_metrics": {
+    "recall": 0.8889,
+    "precision": 0.5647,
+    "f1": 0.6906,
+    "false_negatives": 6,
+    "false_positives": 37,
+    "total_positives": 54,
+    "default_recall": 0.7222,
+    "default_fn": 15,
+    "recall_gain": 0.1667
+  }
+}

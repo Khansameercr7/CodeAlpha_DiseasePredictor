@@ -1,0 +1,53 @@
+{
+  "disease": "heart",
+  "model_name": "Random Forest",
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_names": [
+    "No Disease",
+    "Heart Disease"
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "best_params": {
+      "class_weight": "balanced",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 200
+    },
+    "cv_score": 0.9987
+  },
+  "saved_at": "2026-05-16 01:07:45",
+  "optimal_threshold": 0.25,
+  "recall_target": 0.92,
+  "threshold_metrics": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "false_negatives": 0,
+    "false_positives": 0,
+    "total_positives": 105,
+    "default_recall": 1.0,
+    "default_fn": 0,
+    "recall_gain": 0.0
+  }
+}

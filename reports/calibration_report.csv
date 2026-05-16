@@ -1,0 +1,13 @@
+Disease,Model,ECE,Status
+heart,Logistic Regression,0.0536,⚠ Needs calibration
+heart,SVM,0.0296,✓ Good
+heart,Random Forest,0.053,⚠ Needs calibration
+heart,XGBoost,0.0476,✓ Good
+diabetes,Logistic Regression,0.095,⚠ Needs calibration
+diabetes,SVM,0.1105,⚠ Needs calibration
+diabetes,Random Forest,0.0405,✓ Good
+diabetes,XGBoost,0.1577,⚠ Needs calibration
+breast_cancer,Logistic Regression,0.018,✓ Good
+breast_cancer,SVM,0.0242,✓ Good
+breast_cancer,Random Forest,0.0511,⚠ Needs calibration
+breast_cancer,XGBoost,0.026,✓ Good

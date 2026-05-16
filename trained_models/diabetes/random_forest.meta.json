@@ -1,0 +1,50 @@
+{
+  "disease": "diabetes",
+  "model_name": "Random Forest",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_category",
+    "Glucose_Insulin"
+  ],
+  "class_names": [
+    "Non-Diabetic",
+    "Diabetic"
+  ],
+  "metrics": {
+    "accuracy": 0.7468,
+    "precision": 0.6271,
+    "recall": 0.6852,
+    "f1": 0.6549,
+    "roc_auc": 0.8335,
+    "best_params": {
+      "class_weight": "balanced",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 200
+    },
+    "cv_score": 0.896
+  },
+  "saved_at": "2026-05-16 01:11:00",
+  "optimal_threshold": 0.25,
+  "recall_target": 0.85,
+  "threshold_metrics": {
+    "recall": 0.9259,
+    "precision": 0.5747,
+    "f1": 0.7092,
+    "false_negatives": 4,
+    "false_positives": 37,
+    "total_positives": 54,
+    "default_recall": 0.6852,
+    "default_fn": 17,
+    "recall_gain": 0.2407
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "disease": "heart",
+  "model_name": "XGBoost",
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_names": [
+    "No Disease",
+    "Heart Disease"
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 7,
+      "min_child_weight": 1,
+      "n_estimators": 100,
+      "reg_lambda": 1,
+      "subsample": 0.7
+    },
+    "cv_score": 0.9964
+  },
+  "saved_at": "2026-05-16 01:07:45",
+  "optimal_threshold": 0.275,
+  "recall_target": 0.92,
+  "threshold_metrics": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "false_negatives": 0,
+    "false_positives": 0,
+    "total_positives": 105,
+    "default_recall": 1.0,
+    "default_fn": 0,
+    "recall_gain": 0.0
+  }
+}

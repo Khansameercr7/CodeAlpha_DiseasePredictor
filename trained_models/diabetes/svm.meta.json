@@ -1,0 +1,48 @@
+{
+  "disease": "diabetes",
+  "model_name": "SVM",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_category",
+    "Glucose_Insulin"
+  ],
+  "class_names": [
+    "Non-Diabetic",
+    "Diabetic"
+  ],
+  "metrics": {
+    "accuracy": 0.7273,
+    "precision": 0.5968,
+    "recall": 0.6852,
+    "f1": 0.6379,
+    "roc_auc": 0.7993,
+    "best_params": {
+      "C": 10,
+      "class_weight": "balanced",
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "cv_score": 0.8692
+  },
+  "saved_at": "2026-05-16 01:11:00",
+  "optimal_threshold": 0.2,
+  "recall_target": 0.85,
+  "threshold_metrics": {
+    "recall": 0.8704,
+    "precision": 0.5402,
+    "f1": 0.6667,
+    "false_negatives": 7,
+    "false_positives": 40,
+    "total_positives": 54,
+    "default_recall": 0.6852,
+    "default_fn": 17,
+    "recall_gain": 0.1852
+  }
+}

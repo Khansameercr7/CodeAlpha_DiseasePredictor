@@ -1,0 +1,50 @@
+{
+  "disease": "diabetes",
+  "model_name": "XGBoost",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_category",
+    "Glucose_Insulin"
+  ],
+  "class_names": [
+    "Non-Diabetic",
+    "Diabetic"
+  ],
+  "metrics": {
+    "accuracy": 0.7338,
+    "precision": 0.6102,
+    "recall": 0.6667,
+    "f1": 0.6372,
+    "roc_auc": 0.8141,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 7,
+      "min_child_weight": 1,
+      "n_estimators": 200,
+      "reg_lambda": 1,
+      "subsample": 0.85
+    },
+    "cv_score": 0.8978
+  },
+  "saved_at": "2026-05-16 01:11:00",
+  "optimal_threshold": 0.1,
+  "recall_target": 0.85,
+  "threshold_metrics": {
+    "recall": 0.8704,
+    "precision": 0.5732,
+    "f1": 0.6912,
+    "false_negatives": 7,
+    "false_positives": 35,
+    "total_positives": 54,
+    "default_recall": 0.6667,
+    "default_fn": 18,
+    "recall_gain": 0.2037
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "disease": "diabetes",
+  "model_name": "Stacking Ensemble",
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_category",
+    "Glucose_Insulin"
+  ],
+  "class_names": [
+    "Non-Diabetic",
+    "Diabetic"
+  ],
+  "metrics": {
+    "accuracy": 0.7532,
+    "precision": 0.629,
+    "recall": 0.7222,
+    "f1": 0.6724,
+    "roc_auc": 0.8356
+  },
+  "saved_at": "2026-05-16 01:11:01",
+  "optimal_threshold": 0.3,
+  "recall_target": 0.85,
+  "threshold_metrics": {
+    "recall": 0.8889,
+    "precision": 0.5854,
+    "f1": 0.7059,
+    "false_negatives": 6,
+    "false_positives": 34,
+    "total_positives": 54,
+    "default_recall": 0.7222,
+    "default_fn": 15,
+    "recall_gain": 0.1667
+  }
+}

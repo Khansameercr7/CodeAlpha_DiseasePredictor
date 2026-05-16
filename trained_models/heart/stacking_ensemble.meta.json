@@ -1,0 +1,44 @@
+{
+  "disease": "heart",
+  "model_name": "Stacking Ensemble",
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_names": [
+    "No Disease",
+    "Heart Disease"
+  ],
+  "metrics": {
+    "accuracy": 0.9659,
+    "precision": 0.9623,
+    "recall": 0.9714,
+    "f1": 0.9668,
+    "roc_auc": 0.996
+  },
+  "saved_at": "2026-05-16 01:07:45",
+  "optimal_threshold": 0.575,
+  "recall_target": 0.92,
+  "threshold_metrics": {
+    "recall": 0.9714,
+    "precision": 0.9808,
+    "f1": 0.9761,
+    "false_negatives": 3,
+    "false_positives": 2,
+    "total_positives": 105,
+    "default_recall": 0.9714,
+    "default_fn": 3,
+    "recall_gain": 0.0
+  }
+}

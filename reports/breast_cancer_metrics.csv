@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,CV-Score
+Stacking Ensemble,0.9912,1.0,0.9762,0.988,0.9974,-
+Random Forest,0.9737,1.0,0.9286,0.963,0.9967,0.9949
+XGBoost,0.9737,1.0,0.9286,0.963,0.9947,0.9974
+Logistic Regression,0.9825,0.9762,0.9762,0.9762,0.9944,0.9978
+SVM,0.9737,1.0,0.9286,0.963,0.994,0.9987

@@ -1,0 +1,13 @@
+Disease,Model,Default_Recall,Default_FN,Opt_Threshold,Opt_Recall,Opt_FN,Recall_Gain,Opt_F1,Total_Pos
+heart,Logistic Regression,0.9238,8,0.525,0.9238,8,0.0,0.8899,105
+heart,SVM,0.9905,1,0.45,0.9905,1,0.0,0.9952,105
+heart,Random Forest,1.0,0,0.25,1.0,0,0.0,1.0,105
+heart,XGBoost,1.0,0,0.275,1.0,0,0.0,1.0,105
+diabetes,Logistic Regression,0.7222,15,0.3,0.8889,6,0.1667,0.6906,54
+diabetes,SVM,0.6852,17,0.2,0.8704,7,0.1852,0.6667,54
+diabetes,Random Forest,0.6852,17,0.25,0.9259,4,0.2407,0.7092,54
+diabetes,XGBoost,0.6667,18,0.1,0.8704,7,0.2037,0.6912,54
+breast_cancer,Logistic Regression,0.9762,1,0.25,0.9762,1,0.0,0.9762,42
+breast_cancer,SVM,0.9286,3,0.15,0.9762,1,0.0476,0.9647,42
+breast_cancer,Random Forest,0.9286,3,0.3,0.9524,2,0.0238,0.9524,42
+breast_cancer,XGBoost,0.9286,3,0.3,0.9524,2,0.0238,0.9756,42

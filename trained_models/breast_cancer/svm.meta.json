@@ -1,0 +1,68 @@
+{
+  "disease": "breast_cancer",
+  "model_name": "SVM",
+  "feature_names": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ],
+  "class_names": [
+    "Benign",
+    "Malignant"
+  ],
+  "metrics": {
+    "accuracy": 0.9737,
+    "precision": 1.0,
+    "recall": 0.9286,
+    "f1": 0.963,
+    "roc_auc": 0.994,
+    "best_params": {
+      "C": 10,
+      "class_weight": "balanced",
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "cv_score": 0.9987
+  },
+  "saved_at": "2026-05-16 01:15:32",
+  "optimal_threshold": 0.15,
+  "recall_target": 0.95,
+  "threshold_metrics": {
+    "recall": 0.9762,
+    "precision": 0.9535,
+    "f1": 0.9647,
+    "false_negatives": 1,
+    "false_positives": 2,
+    "total_positives": 42,
+    "default_recall": 0.9286,
+    "default_fn": 3,
+    "recall_gain": 0.0476
+  }
+}

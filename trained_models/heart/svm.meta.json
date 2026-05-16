@@ -1,0 +1,51 @@
+{
+  "disease": "heart",
+  "model_name": "SVM",
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_names": [
+    "No Disease",
+    "Heart Disease"
+  ],
+  "metrics": {
+    "accuracy": 0.9951,
+    "precision": 1.0,
+    "recall": 0.9905,
+    "f1": 0.9952,
+    "roc_auc": 0.9997,
+    "best_params": {
+      "C": 10,
+      "class_weight": null,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "cv_score": 0.9935
+  },
+  "saved_at": "2026-05-16 01:07:44",
+  "optimal_threshold": 0.45,
+  "recall_target": 0.92,
+  "threshold_metrics": {
+    "recall": 0.9905,
+    "precision": 1.0,
+    "f1": 0.9952,
+    "false_negatives": 1,
+    "false_positives": 0,
+    "total_positives": 105,
+    "default_recall": 0.9905,
+    "default_fn": 1,
+    "recall_gain": 0.0
+  }
+}
